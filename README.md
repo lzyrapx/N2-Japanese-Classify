@@ -50,7 +50,8 @@
 ## pdf.
 [N2.pdf](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/N2%20.pdf)
 
-### demo
+## demo
+![pdf_demo](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/pdf_demo.png)
 
 
 
