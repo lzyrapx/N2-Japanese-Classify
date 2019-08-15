@@ -33,7 +33,7 @@
 |      | 幸 | 幸運 |
 |      | 講 | 講演 |
 
-## What.
+## What?
 最后经过一系列的算法分类，将 N2 所有单词 (除了专有名词) 做了一个分类。
 
 以下是一个例子：
@@ -50,7 +50,7 @@
 ## Pdf.
 [N2.pdf](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/N2%20.pdf)
 
-## Demo
+## Demo.
 ![pdf_demo](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/pdf_demo.png)
 
 
