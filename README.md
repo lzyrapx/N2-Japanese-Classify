@@ -47,10 +47,10 @@
 |こうえい  | 公営 | 公营|名词|
 |うんこう | 運行 | 运行| 名词|
 
-## pdf.
+## Pdf.
 [N2.pdf](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/N2%20.pdf)
 
-## demo
+## Demo
 ![pdf_demo](https://github.com/LzyRapx/N2-Japanese-Classify/blob/master/pdf/pdf_demo.png)
 
 
