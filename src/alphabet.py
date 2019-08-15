@@ -1,6 +1,7 @@
 #coding: utf-8
+from tqdm import tqdm
 
-# get 
+# classify function 
 class Alpha(object):
     def __init__(self):
         self.kou = {'こう': []}      # こう
@@ -141,3 +142,26 @@ class Alpha(object):
         self.hutu = {'ふつ': []}     # ふつ
         self.butu = {'ぶつ': []}     # ぶつ
         self.nin = {'にん': []}      # にん
+
+    # classify all entry
+    def classify(self, word_list):
+        print('---Start classify---Running...')
+        for entry in tqdm(word_list):
+            kana = entry['假名']
+            # 判断字段是否在假名中
+            for i, j in vars(self).items():
+                name = list(j)[0]
+                if name in kana:
+                    getattr(self, i)[name].append(entry)
+        print('---classify Finish---')
+    
+    # list all entry
+    def list_all(self):
+        for i, j in vars(self).items():
+            print('字段:{}, 列表:{}'.format(i, j))
+    # list the length of entry
+    def get_entry_length(self):
+        for i, j in vars(self).items():
+            name = list(j)[0]
+            entry_list = list(j.values())[0]
+            print('字段:{} 包含{}个词条'.format(name, len(entry_list)))
